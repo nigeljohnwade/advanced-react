@@ -8,7 +8,7 @@
   },
   "scripts": {
     "test": "jest --watch",
-    "dev": "pm2 start lib/server.js --watch --interpreter babel-node",
+    "dev": "nodemon ./node_modules/babel-cli/bin/babel-node lib/server.js",
     "webpack": "webpack -wd"
   },
   "babel": {
